@@ -1,0 +1,23 @@
+web-app/
+│
+├── backend/
+│   ├── app.py
+│   ├── models/
+│   │   └── user.py
+│   ├── routes/
+│   │   └── auth.py
+│   └── db/
+│       └── connection.py
+│
+├── frontend/
+│   ├── public/
+│   └── src/
+│       ├── App.jsx
+│       ├── components/
+│       │   └── Navbar.jsx
+│       └── pages/
+│           └── Home.jsx
+│
+├── tests/
+│   └── test_api.py
+└── .env
