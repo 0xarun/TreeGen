@@ -112,7 +112,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author & Contact
 
-Developed by [Arun](https://linkedin.com/in/0xarun)
+Developed by [Arun](https://linkedin.com/in/0xarun) (Github Copilot) 
 
 [![Follow on X](https://img.shields.io/badge/follow-%400xarun-1DA1F2?logo=x&style=social)](https://x.com/0xarun)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=social&logo=linkedin)](https://linkedin.com/in/0xarun)
