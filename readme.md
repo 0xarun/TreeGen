@@ -1,93 +1,64 @@
-# TreeGen
+## Overview
 
-**TreeGen** is a cross-platform CLI utility that creates real folder and file structures from plain-text blueprints.
-It supports tree-style, flat-style, and full-path formats, making it ideal for quickly scaffolding projects.
-You can write your own structure file or generate one using ChatGPT—TreeGen brings it to life in seconds.
+**TreeGen** is a lightweight, cross-platform CLI utility that transforms plain-text blueprints into actual folder and file structures. Perfect for vibe-coders who want to quickly scaffold projects without tedious manual creation.
 
----
+Whether you prefer tree-style notation, flat structures, or full-path formats, TreeGen handles it all with ease. Generate your structure with AI tools like ChatGPT or write your own—TreeGen brings it to life in seconds.
 
-## Features
+## ✨ Features
 
-- **Supports multiple structure formats:**  
-  - Tree-style (with `├──`, `│`, `└──` symbols and indentation)
-  - Flat-style (directory, then files, no indentation)
-  - Full-path style (e.g., `project/src/main.py`)
-- **Handles nested directories and files**
-- **Ignores comments and blank lines**
-- **Creates empty files and folders as specified**
-- **Cross-platform (works on Windows, macOS, Linux)**
+- **Multiple Structure Formats**
+  - 🌿 Tree-style (with `├──`, `│`, `└──` symbols and indentation)
+  - 📋 Flat-style (simple lists with no indentation)
+  - 🛣️ Full-path style (e.g., `project/src/main.py`)
+- **Advanced Capabilities**
+  - 📁 Handles deeply nested directories
+  - 📄 Creates empty files as specified
+  - 💬 Ignores comments and blank lines
+  - 🖥️ Works across Windows, macOS, and Linux
 
----
+## 🚀 Getting Started
 
-## Example Usage
+### Installation
 
-### 1. Create a structure file
+**No installation required!**
 
-Example: `my-structure.txt`
-```
-my-app/
-├── backend/
-│   ├── app.py
-│   └── db/
-│       └── connection.py
-├── frontend/
-│   └── src/
-│       └── App.jsx
-└── README.md
-```
+- **Python Users**: Download `structuregen.py` and run with Python 3.6+
+- **Non-Python Users**: Download pre-built binaries from [Releases](https://github.com/your-username/TreeGen/releases)
 
-### 2. Run TreeGen
+### Quick Start
 
-```sh
-python structuregen.py my-structure.txt
-```
+1. **Create a structure file** (e.g., `project-structure.txt`):
+   ```
+   my-app/
+   ├── backend/
+   │   ├── app.py
+   │   └── db/
+   │       └── connection.py
+   ├── frontend/
+   │   └── src/
+   │       └── App.jsx
+   └── README.md
+   ```
 
----
+2. **Run TreeGen**:
+   ```sh
+   # Using Python
+   python structuregen.py project-structure.txt
+   
+   # Using binary (Windows)
+   .\treegen.exe project-structure.txt
+   
+   # Using binary (Linux/macOS)
+   ./treegen project-structure.txt
+   ```
 
-## Installation
+3. **Watch your structure come to life!**
 
-No installation required!  
-Just download `structuregen.py` and run with Python 3.6+.
+## 📋 Structure File Syntax
 
----
+TreeGen is flexible and accepts several notation formats:
 
-## Releases
-
-Pre-built binaries are available for both **Windows** and **Linux** — no Python required!
-
-### 🔽 Download from Releases
-Grab the latest release from the [Releases](https://github.com/your-username/TreeGen/releases) page:
-
-- **Windows**: `treegen.exe`
-- **Linux**: `treegen` (make sure it’s executable)
-
-### 🛠 How to Use
-
-#### On Windows:
-```powershell
-.\treegen.exe my-structure.txt
-```
-
-#### On Linux:
-```
-chmod +x treegen
-./treegen my-structure.txt
-```
-You can now scaffold your directory structure instantly without needing to install Python.
-
-## Structure File Syntax
-
-- **Directories:** End with `/`
-- **Files:** Any line with a filename (e.g., `main.py`)
-- **Tree symbols and indentation:** Supported but not required
-- **Full paths:** Supported (e.g., `my-app/src/main.py`)
-- **Comments:** Lines starting with `#` or after `#` on a line are ignored
-
----
-
-## Example Structure Files
-
-### Tree-style
+### Tree-style (traditional)
 ```
 project/
 ├── src/
@@ -95,7 +66,7 @@ project/
 └── README.md
 ```
 
-### Flat-style
+### Flat-style (simple)
 ```
 project/
 src/
@@ -103,23 +74,45 @@ main.py
 README.md
 ```
 
-### Full-path style
+### Full-path style (explicit)
 ```
 project/
 project/src/main.py
 project/README.md
 ```
 
----
+**Syntax Rules**:
+- Directories must end with `/`
+- Lines starting with `#` are treated as comments
+- Inline comments after `#` are ignored
+- Blank lines are skipped
 
-## License
+## 📦 Releases
 
-MIT License
+Pre-built binaries are available for:
+- **Windows**: `treegen.exe`
+- **Linux**: `treegen` (executable)
 
----
+### Binary Usage
 
-## Author
+#### Windows:
+```powershell
+.\treegen.exe my-structure.txt
+```
 
-Generated with by GitHub Copilot 
+#### Linux:
+```bash
+chmod +x treegen
+./treegen my-structure.txt
+```
 
+## 📝 License
 
+This project is licensed under the [MIT License](LICENSE).
+
+## 👨‍💻 Author & Contact
+
+Developed by [Arun](https://linkedin.com/in/0xarun)
+
+[![Follow on X](https://img.shields.io/badge/follow-%400xarun-1DA1F2?logo=x&style=social)](https://x.com/0xarun)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=social&logo=linkedin)](https://linkedin.com/in/0xarun)
