@@ -1,7 +1,7 @@
 ## TreeGen
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/04097732-54d2-41d1-8dbd-9c6f70f91917" alt="HERO" width="350"/>
+  <img src="https://github.com/user-attachments/assets/7c2ec59c-5988-4f0b-b5cc-b49fafb64016" alt="HERO" width="350"/>
 </p>
 
 **TreeGen** is a lightweight, cross-platform CLI utility that transforms plain-text blueprints into actual folder and file structures. Perfect for vibe-coders who want to quickly scaffold projects without tedious manual creation.
