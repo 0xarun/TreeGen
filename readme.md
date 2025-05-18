@@ -23,7 +23,7 @@ Whether you prefer tree-style notation, flat structures, or full-path formats, T
 **No installation required!**
 
 - **Python Users**: Download `structuregen.py` and run with Python 3.6+
-- **Non-Python Users**: Download pre-built binaries from [Releases](https://github.com/your-username/TreeGen/releases)
+- **Non-Python Users**: Download pre-built binaries from [Releases](https://github.com/0xarun/TreeGen/releases)
 
 ### Quick Start
 
