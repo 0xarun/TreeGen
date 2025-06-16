@@ -1,6 +1,6 @@
 ## TreeGen
 
-**TreeGen** is a lightweight, cross-platform CLI utility that transforms plain-text blueprints into actual folder and file structures. Perfect for vibe-coders who want to quickly scaffold projects without tedious manual creation.
+**TreeGen** is a lightweight, cross-platform CLI utility that transforms plain-text blueprints into actual folder and file structures.
 
 Whether you prefer tree-style notation, flat structures, or full-path formats, TreeGen handles it all with ease. Generate your structure with AI tools like ChatGPT or write your own—TreeGen brings it to life in seconds.
 
